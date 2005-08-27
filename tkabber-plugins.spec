@@ -1,12 +1,12 @@
 Summary:	Tk Jabber client plugins
 Summary(pl):	Wtyczki do Klienta Jabbera opartego o Tk
 Name:		tkabber-plugins
-Version:	0.9.7
+Version:	0.9.8
 Release:	1
 License:	GPL
 Group:		Applications/Communications
-Source0:	http://www.jabberstudio.org/projects/tkabber/releases/file/%{name}-%{version}.tar.gz
-# Source0-md5:	837d9e3de0cd7253a1dd6e2940d103d7
+Source0:	http://files.jabberstudio.org/tkabber/%{name}-%{version}.tar.gz
+# Source0-md5:	de03ba77d6b6d28f128acf5cfdd90d28
 URL:		http://tkabber.jabber.ru/
 Requires:	tkabber >= %{version}-%{release}
 BuildArch:	noarch
