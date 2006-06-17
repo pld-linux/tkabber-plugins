@@ -1,5 +1,5 @@
 Summary:	Tk Jabber client plugins
-Summary(pl):	Wtyczki do Klienta Jabbera opartego o Tk
+Summary(pl):	Wtyczki do klienta Jabbera opartego o Tk
 Name:		tkabber-plugins
 Version:	0.9.9
 Release:	1
@@ -13,10 +13,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Tkabber plugins.
+Tkabber (Tk Jabber client) plugins.
 
 %description -l pl
-Wtyczki dla Tkabbera.
+Wtyczki dla Tkabbera - klienta Jabbera opartego o Tk.
 
 %prep
 %setup -q
