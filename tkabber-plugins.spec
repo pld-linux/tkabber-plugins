@@ -29,6 +29,9 @@ for d in *; do
 	[ -d "$d" ] && cp -a "$d" $RPM_BUILD_ROOT%{_datadir}/tkabber/plugins
 done
 
+# avoid dependency to wishx (we don't have that yet)
+rm -rf $RPM_BUILD_ROOT%{_datadir}/tkabber/plugins/whiteboard
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
