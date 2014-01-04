@@ -1,14 +1,12 @@
-%define	snap	20130619
 Summary:	Tk Jabber client plugins
 Summary(pl.UTF-8):	Wtyczki do klienta Jabbera opartego o Tk
 Name:		tkabber-plugins
-Version:	0.11.2
-Release:	0.%{snap}.1
+Version:	1.0
+Release:	1
 License:	GPL
 Group:		Applications/Communications
-# http://svn.xmpp.ru/repos/tkabber/trunk/tkabber-plugins/
-Source0:	%{name}-%{snap}.tar.bz2
-# Source0-md5:	cf898f42de87001f43f2b7f1dd577425
+Source0:	http://files.jabber.ru/tkabber/tkabber-plugins-1.0.tar.xz
+# Source0-md5:	22ffa6241c07ba5f5cfe25e3f3b0204e
 URL:		http://tkabber.jabber.ru/
 Requires:	tkabber >= %{version}-%{release}
 BuildArch:	noarch
@@ -21,7 +19,7 @@ Tkabber (Tk Jabber client) plugins.
 Wtyczki dla Tkabbera - klienta Jabbera opartego o Tk.
 
 %prep
-%setup -q -n %{name}
+%setup -q
 
 %install
 rm -rf $RPM_BUILD_ROOT
